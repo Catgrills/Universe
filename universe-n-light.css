@@ -2602,7 +2602,8 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
 
     #content > .forum_category,
     form .forum_category {
-        color: var(--primary-color) !important
+        color: var(--primary-color) !important;
+        font-weight: normal !important;
     }
 
     .page-forum .forum_border_around .forum_category *,
@@ -2903,7 +2904,7 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
     }
 
     .manga-store-search-results .item {
-        padding-bottom: 20px !important
+        padding-bottom: 20px !important;
         margin-top:10px !important;
         margin-bottom: 0px !important;
     }
@@ -4215,3 +4216,4 @@ regexp("https://myanimelist.net/featured.*") {
     }
 
 }
+
