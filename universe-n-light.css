@@ -3225,6 +3225,10 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
         background: var(--card-bg-2);
         border: 1px solid var(--border-color);
     }
+    
+    .user-profile .user-compatability-graph .bar-outer .bar-inner {
+        height: 30px !important;
+    }
 
     .user-friends .icon-friend {
         border: none !important;
