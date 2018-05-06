@@ -1315,7 +1315,7 @@
     }
 
     .page-common #content .user-status-block .btn-user-status-add-list::after,
-    .fa.fa-plus-circle {
+    .page-common #content .fa.fa-plus-circle {
         display: none;
     }
 
