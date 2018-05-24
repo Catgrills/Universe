@@ -281,6 +281,16 @@
         font-size: 14pt !important;
         font-stretch: condensed !important;
     }
+    
+    .badresult.badresult--is-reset-password {
+        margin-top: 30px;
+    }
+
+    .badresult.badresult--is-reset-password ol li ul li {
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden !important;
+    }
 
     #dialog .goodresult,
     #dialog .successQuery {
