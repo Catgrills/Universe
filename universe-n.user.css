@@ -1,7 +1,7 @@
  /* ==UserStyle==
 @name           Universe-N
 @namespace      https://github.com/Catgrills/Universe-D
-@version        1.0.4
+@version        1.0.5
 @description    An userstyle for MyAnimeList called Universe-D
 @author         Catgrills/Katgrills
 @preprocessor uso
@@ -302,6 +302,16 @@
         color: var(--secondary-color);
         font-size: 14pt !important;
         font-stretch: condensed !important;
+    }
+	
+    .badresult.badresult--is-reset-password {
+        margin-top: 30px;
+    }
+
+    .badresult.badresult--is-reset-password ol li ul li {
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden !important;
     }
 
     #dialog .goodresult,
