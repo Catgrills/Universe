@@ -1,40 +1,41 @@
- /* ==UserStyle==
+/* ==UserStyle==
 @name           Universe-N
 @namespace      https://github.com/Catgrills/Universe-D
-@version        1.0.5
+@version        1.0.6
 @description    An userstyle for MyAnimeList called Universe-D
 @author         Catgrills/Katgrills
 @preprocessor uso
 @var select theme 'Theme' {
-	"Light": `
-	:root {
+    "Light": `
+    :root {
         --body-bg: #F0F1F5 !important;
-		--card-bg: #FFF !important;
-		--card-bg-2: #F9F9F9 !important;
-		--header-bg: #F0F1F5 !important; 
-		--border-color: #BEBEBE !important;
-		--primary-color: #212121 !important;
-		--secondary-color: #7E7E7E !important;
-		--invert: invert(0) !important;
-	}
-	`,
-	"Dark":`
-	:root {
-	    --body-bg: #1E1E1E !important; 
-		--card-bg: #292929 !important;
-		--card-bg-2: #212121 !important;
-		--header-bg: #4F74C8 !important; 
-		--border-color: #000 !important;
-		--primary-color: #FFF !important;
-		--secondary-color: #EBEBEB !important;
-		--invert: invert(1) !important;
-	}
-	`
+        --card-bg: #FFF !important;
+        --card-bg-2: #F9F9F9 !important;
+        --header-bg: #F0F1F5 !important; 
+        --border-color: #BEBEBE !important;
+        --primary-color: #212121 !important;
+        --secondary-color: #7E7E7E !important;
+        --invert: invert(0) !important;
+    }
+    `,
+    "Dark":`
+    :root {
+        --body-bg: #1E1E1E !important; 
+        --card-bg: #292929 !important;
+        --card-bg-2: #212121 !important;
+        --header-bg: #4F74C8 !important; 
+        --border-color: #000 !important;
+        --primary-color: #FFF !important;
+        --secondary-color: #EBEBEB !important;
+        --invert: invert(1) !important;
+    }
+    `
 }
 ==/UserStyle== */
 
 @-moz-document domain("myanimelist.net") {
-/*[[theme]]*/
+
+    /*[[theme]]*/
 
     /* GENERAL */
 
@@ -195,8 +196,10 @@
     .icon-watch-pv,
     .index-manga-store-description,
     .index-watch-description,
+    .initialize-tutorial,
     .js-sns-icon-container,
-    .manga-store-search-genres,.page-common .border_bottom,
+    .manga-store-search-genres,
+    .page-common .border_bottom,
     .page-common #footer-block,
     .page-common #headerSmall .banner-header-anime-straming,
     div[id*="bottom_rec_"],
@@ -206,6 +209,7 @@
     .widget.left_bottom_ad.left {
         display: none !important;
     }
+
 
     /* DIALOG */
 
@@ -303,7 +307,7 @@
         font-size: 14pt !important;
         font-stretch: condensed !important;
     }
-	
+
     .badresult.badresult--is-reset-password {
         margin-top: 30px;
     }
@@ -933,9 +937,9 @@
         margin-left: 5px !important;
         text-align: center;
     }
-    
+
     .button_edit.watching {
-     	line-height: 28px !important;   
+        line-height: 28px !important;
     }
 
     .button_edit.completed {
@@ -1376,7 +1380,7 @@
     .page-common .js-scrollfix-bottom-rel {
         line-height: 18pt !important;
     }
-    
+
     .page-common h2.mb8 {
         color: var(--primary-color) !important;
         font-family: "Roboto";
@@ -1698,15 +1702,12 @@
 
 }
 
-@-moz-document regexp("myanimelist.net"),regexp("https://myanimelist.net/(blog|comments|history|notification|profile|reviews|store).*"),
-regexp("https://myanimelist.net/(forum|search)/.*"),regexp("https://myanimelist.net/(about|addtolist|anime|character|clubs|comtocom|editclub|editprofile|import|manga|myblog|myfriends|mymessages|myrecommendations|myreviews|panel|people|recommendations|shared|topanime|topmanga|users).php.*"),
+@-moz-document regexp("myanimelist.net"),regexp("https://myanimelist.net/(blog|comments|history|notification|profile|reviews|store).*"),regexp("https://myanimelist.net/(forum|search)/.*"),regexp("https://myanimelist.net/(about|addtolist|anime|character|clubs|comtocom|editclub|editprofile|import|manga|myblog|myfriends|mymessages|myrecommendations|myreviews|panel|people|recommendations|shared|topanime|topmanga|users).php.*"),
 regexp("https://myanimelist.net/notification/setting.*"),
 regexp("https://myanimelist.net/ownlist/style.*"),
 regexp("https://myanimelist.net/account/payment.*"),
 regexp("https://myanimelist.net/anime/season.*"),
-regexp("https://myanimelist.net/(anime|manga)/(genre|magazine|producer).*"),
-regexp("https://myanimelist.net/watch/(episode|promotion).*"),
-regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
+regexp("https://myanimelist.net/(anime|manga)/(genre|magazine|producer).*"),regexp("https://myanimelist.net/watch/(episode|promotion).*"),regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
 
     /* ANIME SEARCH */
 
@@ -2861,7 +2862,7 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
         font-stretch: condensed !important;
         padding: 10px !important;
     }
-	
+
     #postReply,
     #clearQuickReply {
         border: none !important;
@@ -3265,7 +3266,7 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
         background: var(--card-bg-2);
         border: 1px solid var(--border-color);
     }
-	
+
     .user-profile .user-compatability-graph .bar-outer .bar-inner {
         height: 30px !important;
     }
@@ -3433,8 +3434,7 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
     #contentWrapper > #content > div > form > table > tbody > tr > td,
     #contentWrapper > #content > div > form > table > tbody > tr > td *,
     #contentWrapper > #content section .spaceit,
-    #contentWrapper > #content section .spaceit *:not(.fa),.ignored-users *,
-    div[style="width: 450px;"],div[style="width: 450px;"] * {
+    #contentWrapper > #content section .spaceit *:not(.fa),.ignored-users *,div[style="width: 450px;"],div[style="width: 450px;"] * {
         color: var(--primary-color);
         font-family: "Roboto" !important;
         font-size: 14pt !important;
@@ -3789,8 +3789,7 @@ regexp("https://myanimelist.net/recommendations/(anime|manga).*") {
         font-stretch: condensed !important;
     }
 
-    #myanimelist > .wrapper > #contentWrapper > #content > form input:not(.inputButton),#myanimelist > .wrapper > #contentWrapper > #content > form select:not,
-    #myanimelist > .wrapper > #contentWrapper > #content > form textarea {
+    #myanimelist > .wrapper > #contentWrapper > #content > form input:not(.inputButton),#myanimelist > .wrapper > #contentWrapper > #content > form select:not,#myanimelist > .wrapper > #contentWrapper > #content > form textarea {
         background: var(--card-bg-2) !important;
         border: 1px solid var(--border-color);
         color: var(--primary-color);
@@ -4271,4 +4270,3 @@ regexp("https://myanimelist.net/featured.*") {
     }
 
 }
-
