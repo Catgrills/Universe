@@ -1,4 +1,4 @@
-# Universe-N
+# Universe
 An userstyle for MyAnimeList called 'Universe'.
 
 <img src="preview.png" width="100%">
