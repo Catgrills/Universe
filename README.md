@@ -1,6 +1,4 @@
 # Universe
-An userstyle for MyAnimeList called 'Universe'.
-
 <img src="preview.png" width="100%">
 
 Preview of <i>Universe</i>.
