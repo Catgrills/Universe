@@ -1,14 +1,14 @@
 # Universe-N
-An userstyle for MyAnimeList called 'Universe-N'.
+An userstyle for MyAnimeList called 'Universe'.
 
-<img src="preview_universe-n.png" width="100%">
+<img src="preview.png" width="100%">
 
-Preview of <i>Universe-N</i>.
+Preview of <i>Universe</i>.
 
 About
 -------------------------------
 
-<i>Universe-N</i> is an user style for <i>MyAnimeList</i>.
+<i>Universe</i> is an user style for <i>MyAnimeList</i>.
 
 User styles are CSS code designed to alter the appearance of one, some, or all sites.
 
@@ -24,7 +24,7 @@ Instruction
 
 <strong>Step 2 : Install the script </strong>
 + Via <b>userstyles</b> : <a href="https://userstyles.org/styles/159476/universe-n-dark-mal-css">Dark theme</a> or <a href="https://userstyles.org/styles/159477/universe-n-light-mal-css">Light theme</a>
-+ Or directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Universe-N/master/universe-n.user.css">click here</a>
++ Or directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Universe/master/user.css">click here</a>
 
 <strong>Step 3 : Install the font </strong>
 
