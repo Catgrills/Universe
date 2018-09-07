@@ -6,7 +6,7 @@ Preview of <i>Universe</i>.
 About
 -------------------------------
 
-<i>Universe</i> is an user style for <i>MyAnimeList</i>.
+<i>Universe</i> is a user style for <i>MyAnimeList</i>.
 
 User styles are CSS code designed to alter the appearance of one, some, or all sites.
 
