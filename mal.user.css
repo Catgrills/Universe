@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Universe
 @namespace      https://github.com/Catgrills/Universe
-@version        1.0.7
+@version        1.0.8
 @description    An user style for MyAnimeList called Universe.
 @author         Catgrills/Katgrills
 @preprocessor uso
@@ -885,6 +885,12 @@
         margin-bottom: 10px !important;
         margin-top: 5px !important;
     }
+    
+    .borderClass * {
+        color: var(--primary-color) !important;
+        font-size: 14pt !important;
+        line-height: 20pt !important;
+    }
 
     .widget .item {
         border-bottom: 1px dotted var(--border-color) !important;
@@ -1137,6 +1143,13 @@
         font-family: "Roboto Condensed" !important;
         font-size: 14pt;
         font-stretch: condensed;
+    }
+    
+    .page-common .h1 .title-english {
+
+        /*** ANIME/MANGA OVERVIEW CONTENT TITLE ***/
+        font-size: 14pt;
+        opacity: .7;
     }
 
     .page-common #horiznav_nav {
@@ -1612,6 +1625,11 @@
         padding-bottom: 4px !important;
         text-align: center !important;
         margin-top: 8px !important;
+    }
+    
+    #showAddtolistAnime *,
+    #showAddtolistManga * {
+        color: #FFF !important;
     }
 
     .page-common #profileRows a,
